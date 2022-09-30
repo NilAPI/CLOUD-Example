@@ -1,5 +1,4 @@
 local dataStoreService = game:GetService("DataStoreService");
-
 local inStudio         = game:GetService("RunService"):IsStudio();
 local profile_Template = require(script:WaitForChild("Template")) or {};
 local replicaService   = _G.ReplicaService;
